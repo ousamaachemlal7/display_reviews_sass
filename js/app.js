@@ -82,7 +82,7 @@ prev.addEventListener("click", (event) =>{
 })
 
 rand.addEventListener("click", (event) =>{
-  current = Math.floor((reviews.length - 1) * Math.random())
+  current = Math.floor((reviews.length ) * Math.random())
   console.log(current)
   load(reviews,current)
 })
