@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+/* Text color */
+/*Base colors*/
+*,
+*::after,
+**::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #F6F4EC;
+  font-size: 3.5rem; }
+
+.container {
+  width: 100%;
+  background-color: #F6F4EC; }
+  .container__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .container__text {
+    font-size: 3.5rem; }
+  .container__underline {
+    width: 70px;
+    height: 4px;
+    background-color: #a80e0e; }
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 10rem;
+  background-color: #fff;
+  height: auto;
+  font-size: 2.5rem;
+  box-shadow: grey 2px 2px 2px 2px; }
+  .review__img {
+    margin-top: 2%;
+    width: 300px;
+    height: 400px; }
+    .review__img--person {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-shadow: grey 10px 4px; }
+  .review__author {
+    font-size: 3.5rem;
+    height: 30px; }
+  .review__job {
+    margin-top: -30px;
+    color: #181357; }
+  .review__info {
+    text-align: center;
+    color: #181357; }
+  .review__button--btn {
+    border: 1px solid #E94703;
+    background: transparent;
+    color: #E94703;
+    width: 30px;
+    transition: all 0.4s linear; }
+    .review__button--btn:hover {
+      color: black;
+      background-color: #E94703;
+      border: none; }
+  .review__random--btn {
+    border: 1px solid #E94703;
+    background: transparent;
+    color: #E94703;
+    width: 30px;
+    transition: all 0.4s linear;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .review__random--btn:hover {
+      color: black;
+      background-color: #E94703;
+      border: none; }

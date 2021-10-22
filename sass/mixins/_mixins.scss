@@ -1,0 +1,15 @@
+@mixin button {
+
+    border: 1px solid $uiColor;
+    background: transparent;
+    color:$uiColor;
+     width:30px;
+    transition : all 0.4s linear;
+
+
+    &:hover{
+        color:black;
+        background-color: $uiColor;
+        border:none;
+    }
+}

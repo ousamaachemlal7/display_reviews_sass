@@ -1,0 +1,27 @@
+.container{
+
+    width:100%;
+    background-color: $bgColor;
+
+
+    &__title{
+
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    &__text{
+
+        font-size: 3.5rem;
+    }
+
+    &__underline{
+        width: 70px;
+        height: 4px;
+        background-color: rgb(168, 14, 14);
+    }
+
+    
+}
